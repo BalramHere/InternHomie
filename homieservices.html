@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Homie Services</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link type="text/css" rel="stylesheet" href="homie.css"/>
+<link type="text/javascript" rel="stylesheet" href="homie.css"/>
+</head>
+<body>
+<h1 align="center"><img src="logo1.png" width="100px" height="80px" style="position:absolute;left:20px;top:30px;"><b>Our Homie Services</b></h1>
+<br>
+<br>
+<br>
+<div id="Services">
+<h2><b>Request Service</b></h2>
+<ul>
+<li><a href="#">Design,Construction and Renovation</a>
+<ul>
+<li><a href="#">Villa</a></li>
+<li><a href="#">Aparement</a></li>
+<li><a href="#">Heavy Insdustry</a></li>
+<li><a href="#">Steel stucture</a></li>
+<li><a href="#">Aluminium partition</a></li>
+<li><a href="#">Swimming Pool</a></li>
+<li><a href="#">Interior Designing</a></li>
+</ul>
+</li>
+<li><a href="#">House Keeping</a>
+<ul>
+<li><a href="#">Pest control</a></li>
+<li><a href="#">Full HOuse Deep cleaning</a></li>
+<li><a href="#">sofa deep cleaning</a></li>
+<li><a href="#">vaccum cleaning</a></li>
+<li><a href="#">apartment cleaning</a></li>
+<li><a href="#">hospital cleaning</a></li>
+<li><a href="#">safety and security</a></li>
+</ul>
+</li>
+<li><a href="#">Interior Furnishing</a>
+<ul>
+<li><a href="#">Flooring</a></li>
+<li><a href="#">painting</a></li>
+<li><a href="#">ceilinig</a></li>
+<li><a href="#">plumbing</a></li>
+<li><a href="#">electrification</a></li>
+<li><a href="#">carpeting</a></li>
+<li><a href="#">firnishing</a></li>
+</ul>
+</li>
+<li><a href="#">Electronics Installation and repair</a>
+<ul>
+<li><a href="#">Air conditioner</a></li>
+<li><a href="#">geyser</a></li>
+<li><a href="#">mobile</a></li>
+<li><a href="#">computer</a></li>
+<li><a href="#">Refrigirator</a></li>
+<li><a href="#">carpeting</a></li>
+<li><a href="#">furnishing</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<form name="signup" style="position:absolute;left:1000px;top:100px;">
+
+<table>
+
+<tr>
+
+<td>first name:</td>
+
+<td><input type="text" maxlength="15"></td>
+
+</tr>
+
+<tr>
+
+<td>last name:</td>
+
+<td><input type="text" maxlength="15"></td>
+
+</tr>
+
+<tr>
+
+<td>email:</td>
+<td><input type="text"></td>
+</tr>
+
+<tr>
+
+<td>user name:</td>
+
+<td><input type="text" maxlength="8"></td>
+</tr>
+
+<tr>
+
+<td>password:</td>
+
+<td><input type="password" maxlength="15"></td>
+</tr>
+
+<tr>
+
+<td><input type="button" value="SIGNUP"></td>
+</tr>
+
+</form>
+<div id="content">
+<h2>Get started with our website and avail the best service, at your doorstep.
+Whatever we do, is to provide you with the best services. Choose your location, select the service you want and unleash our world. We even let you select the best price so that you dont have to spend a penny more than you want.</h2>
+
+
+<form action="C:\Users\user\Desktop\HOMIE\ongoing.html">
+<input type="submit" value="Request New Service">
+</form>
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="footer">
+<h4><center>ALL RIGHTS RESERVED<br>@HOMIE SERVICES PVT LTD<br>We are always ready for providing</center></h4>
+</div>
+</body>
+</html>
+
+		
+<----CSS FILE>
+
+@charset "utf-8";
+h1
+{
+background-color:white;
+padding:20px;
+color:black;
+border-radius:10px;
+}
+*
+{
+margin:0px;
+padding:0px;
+}
+#Services ul
+{
+list-style:none;
+margin:0;
+}
+#Services ul li 
+{
+width:200px;
+background-color:#34495E;
+position:relative;
+padding:15px;
+border-top:1px solid red;
+border-radius:10px;
+cursor:pointer;
+transition:all;
+}
+#Services ul li a
+{
+text-decoration:none;
+color:white;
+}
+#Services ul li a:hover
+{
+background-color:green;
+}
+#Services ul ul
+{
+opacity:0;
+transition:all 0.3s;
+visibility:hidden;
+position:absolute;
+border-left:5px solid #F1C40F;
+left:100%;
+top:2%
+}
+#Services ul li:hover >ul
+{
+opacity:1;
+visibility:visible;
+}
+#Services >ul > li
+{
+border-right:5px solid #F1C40F;
+}
+#footer
+{
+background-color:white;
+color:black;
+font-size:25px;
+padding:20px;
+text-align:center;
+float:center
+}
+#content
+{
+color:blue;
+width:500px;
+height:200px;
+float:center;
+position:absolute;
+left:-600px;
+top:50px;
+}
+#footer
+{
+background-color:black;
+color:white;
+font-size:20px;
+padding:15px;
+text-align:center;
+float:center;
+border-radius:30px;
+}
